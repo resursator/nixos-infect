@@ -72,7 +72,7 @@ EOF
 )
   fi
 
-  availableKernelModules=('"ata_piix"' '"uhci_hcd"' '"xen_blkfront"')
+  availableKernelModules=('"ata_piix"' '"uhci_hcd"' '"xen_blkfront"' '"sr_mod"' '"isofs"' '"cdrom"')
   if isX86_64; then
     availableKernelModules+=('"vmw_pvscsi"')
   fi
